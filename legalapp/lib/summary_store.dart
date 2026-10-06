@@ -17,7 +17,7 @@ abstract class _SummaryStore with Store {
 
   final model = GenerativeModel(
     model: 'gemini-1.5-pro',
-    apiKey: 'AIzaSyDH68HMO2562f-K-wdXgGqIoNNMdnd6fUo', // Ensure this is correct
+    apiKey: '', // Ensure this is correct
   );
 
   @action
